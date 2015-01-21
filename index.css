@@ -1,0 +1,53 @@
+﻿.head{
+
+}
+.logo {
+font-size: 100px;
+position: absolute;
+left: 40px;
+float:left;
+font-family: 'Lobster', cursive;
+}
+
+.list {
+float: right;
+margin-top: 60px;
+margin-right: 50px;
+font-size: 25px;
+}
+
+.list a{
+text-decoration: none;
+transition: border-bottom 0.5s;
+border-bottom: 0px;
+border-style: solid;
+border-left: none;
+border-right: none;
+border-top: none;
+color:initial;
+font-family: 'Slabo 27px', serif;
+}
+
+li {
+    display:inline;
+    padding: 10px 15px;
+}
+
+
+.list a:hover {
+border-bottom: 5px;
+border-style: solid;
+border-left: none;
+border-right: none;
+border-top: none;
+border-color: tomato;
+}
+
+.mid {
+position: relative;
+top: 135px;
+/* left: 5%; */
+/* margin-top: -50px; */
+margin-left: -50px;
+border-style: groove;
+}
