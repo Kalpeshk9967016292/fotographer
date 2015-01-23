@@ -9,6 +9,7 @@ Hire a photographer.
 <script src="home.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
 </head>
 
 <body div class="body">
@@ -23,12 +24,14 @@ Hire a photographer.
 <li><a href="#">Hire </a></li>
 <li><a href="#">Learn </a></li>
 <li><a href="#">Gallery </a></li>
+<li><a href="#">Login</a></li>
 </ul>
 </div>
 </div>
 
 <div class="mid">
-
+<div class="text">One stop for Professionals & and newbies.
+</div>
 </div>
 
 </body>
