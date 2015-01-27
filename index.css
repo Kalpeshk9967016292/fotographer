@@ -69,3 +69,52 @@ color: white;
 width: 780px;
 font-family: 'Droid Serif', serif;
 }
+
+.lower{
+position: relative;
+top: 150px;
+/* left: 5%; */
+/* margin-top: -50px; */
+/*margin-left: -50px;*/
+border-style: none;
+height: 350px;
+}
+
+.lbs{
+position: absolute;
+top: 50px;
+left: 50px;
+font-size:35px;
+
+}
+
+.lbs a{
+text-decoration: none;
+}
+
+.lbs li{
+display: inline;
+padding: 10px 100px;
+border-style: ridge;
+display: inline;
+padding: 10px 80;
+border-style: ridge;
+margin: 15px;
+}
+
+.lbst{
+position: absolute;
+top: 130;
+left: 60;
+font-size: large;
+}
+
+.lbst a{
+
+}
+
+.lbst ul{
+
+}
+
+.lbst li{
