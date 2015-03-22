@@ -37,24 +37,17 @@ Hire a photographer.
 <div class="lower">
 
 <div class="lbs">
-<ul>
-<li><a href="#">Work </a></li>
-<li><a href="#">Hire </a></li>
-<li><a href="#">Learn </a></li>
-<li><a href="#">Gallery </a></li>
-</ul>
+<a href="#">Work
+<p>
+If you are a professional photographer.
+</p>
+</a>
+<a href="#">Hire</a>
+<a href="#">Learn</a>
+<a href="#">Gallery</a>
 </div>
 
-<div class="lbst">
-<ul>
-<li><a href="#">If you are a professional photographer </a></li>
-<li><a href="#">If you are looking for a professional photographer </a></li>
-<li><a href="#">If you want to learn photography </a></li>
-<li><a href="#">If you want to see photos by professionals </a></li>
-</ul>
-</div>
 
-</div>
 
 </body>
 
