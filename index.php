@@ -11,95 +11,124 @@
 
 <body>
 
-<div class="container-fluid ">
-	<div class="row top-buffer">
-	<div class="col-md-4 col-xs-12"><img src="img/logo.png" class="img-responsive center-block" width="400px"></div>
-	<div class="col-md-3 col-xs-0"></div>
-	<div class="col-md-1 hidden-xs hidden-sm "><div class="links btn"><a href="work.php">Work</a></div></div>
-	<div class="col-md-1 hidden-xs hidden-sm"><div class="links btn">Hire</div></div>
-	<div class="col-md-1 hidden-xs hidden-sm"><div class="links btn">Learn</div></div>
-	<div class="col-md-1 hidden-xs hidden-sm"><div class="links btn">Gallery</div></div>
-	<div class="col-md-1 hidden-xs hidden-sm"></div>
+<div class="container-fluid">
+<div class="row">
+	<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 top-buffer">
+		<img src="img/logo.png" class="img-responsive center-block" width="400px">
+	</div>
+
+	<div class="col-lg-3 col-md-0 col-xs-12">
+		
+	</div>
+
+	<div class="col-lg-1 col-md-6 col-sm-12 col-xs-12 top-buffer">
+		<a href="#" class="btn btn-info top-buffer" style="width:100%;border-radius:0px;">Hire</a>
+	</div>
+
+	<div class="col-lg-1 col-md-6 col-sm-12 col-xs-12 top-buffer">
+		<a href="#" class="btn btn-info top-buffer" style="width:100%;border-radius:0px;">Work</a>
+	</div>
+
+	<div class="col-lg-1 col-md-6 col-sm-12 col-xs-12 top-buffer">
+		<a href="#" class="btn btn-info top-buffer" style="width:100%;border-radius:0px;">Learn</a>
+	</div>
+
+	<div class="col-lg-1 col-md-6 col-sm-12 col-xs-12 top-buffer">
+		<a href="#" class="btn btn-info top-buffer" style="width:100%;border-radius:0px;">Gallery</a>
 	</div>
 </div>
+</div>
 
-<div class="container-fluid hidden-xs hidden-sm">
+<div class="contaier-fluid">
 	<div class="row">
-	<div class="col-md-12">
-	<div id="mycarousel" class="carousel slide top-buffer" data-ride="carousel">
+		<div class="col-lg-12 col-md-12 hidden-sm hidden-xs "><hr style="border-top: 5px solid #eee;box-shadow: 0px 5px 10px black;width:100%;"></div>
+	</div>
+</div>
 
-	<ol class="carousel-indicators">
-		<li data-target="#mycarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#mycarousel" data-slide-to="1"></li>
-		<li data-target="#mycarousel" data-slide-to="2"></li>
-		<li data-target="#mycarousel" data-slide-to="3"></li>
-	</ol>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-lg-12 col-md-12 hidden-sm hidden-xs">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+				</ol>
 
-	<div class="carousel-inner" role="listbox">
-		<div class="item active">
-			<a href="#"><img src="img/Work.jpg" alt="hire"></a>
-			<div class="carousel-caption" style="color:black;">
-				<h3>Work</h3>
-				<p>Professional Photographers looking for work</p>
+				<div class="carousel-inner" role="listbox">
+					
+					<div class="item active">
+						<img src="IMG/hire.jpg">
+						<div class="carousel-caption">
+							<h3>Hire</h3>
+							<p>Looking for a professional photographer start here.</p>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="IMG/work.jpg">
+						<div class="carousel-caption">
+							<h3>Work</h3>
+							<p>Professional photographers looking for projects.</p>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="IMG/learn.jpg">
+						<div class="carousel-caption">
+							<h3>Learn</h3>
+							<p>Tips,books,blogs,articles from professionals</p>
+						</div>
+					</div>
+
+					<div class="item">
+						<img src="IMG/gallery.jpg">
+						<div class="carousel-caption">
+							<h3>Gallery</h3>
+							<p>Browse pics clicked by others. </p>
+						</div>
+					</div>
+				
+				</div>
+
 			</div>
 		</div>
+	</div>
+</div>
 
-		<div class="item">
-			<a href="#"><img src="img/hire.jpg" alt="hire"></a>
-			<div class="carousel-caption" style="color:black;">
+<div class="container-fluid top-buffer well">
+	<div class="row">
+		<div class="col-lg-3 col-md-6 hidden-sm hidden-xs">
+			<div class="box" style="text-align:center">
 				<h3>Hire</h3>
-				<p>Looking for a professional photographer</p>
+				<p>If you are looking for a professional photographer </p>
 			</div>
-		</div>		
+		</div>
 
-		<div class="item">
-			<a href="#"><img src="img/learn.jpg" alt="hire"></a>
-			<div class="carousel-caption">
+		<div class="col-lg-3 col-md-6 hidden-sm hidden-xs">
+			<div class="box" style="text-align:center">
+				<h3>Work</h3>
+				<p>If you are a professional photographer looking for a project or work</p>
+			</div>
+		</div>
+
+		<div class="col-lg-3 col-md-6 hidden-sm hidden-xs">
+			<div class="box" style="text-align:center">
 				<h3>Learn</h3>
-				<p>Learn Photography tips & Tricks from Professionals</p>
+				<p>Learn photography </p>
 			</div>
-		</div>	
+		</div>
 
-		<div class="item">
-			<a href="#"><img src="img/gallery.jpg" alt="hire"></a>
-			<div class="carousel-caption">
+		<div class="col-lg-3 col-md-6 hidden-sm hidden-xs">
+			<div class="box" style="text-align:center">
 				<h3>Gallery</h3>
-				<p>Browse Clicks by others</p>
+				<p>Look at clicks submitted by others rate pictures or submit your own clicks</p>
 			</div>
-		</div>	
-	</div>
-
-	</div>
-	</div>
-	</div>
-</div>
-
-<div class="container-fluid hidden-lg hidden-md">
-	<div class="row top-buffer">
-		<div class="col-sm-6"><a href="#"><img src="img/worksm.jpg" width="300"> <h3>Work</h3> <p>I am a Photographer</p></div></a>
-		<div class="col-sm-6"><a href="#"><img src="img/hiresm.jpg" width="300"> <h3>Hire</h3> <p>I am Looking for Photographer</p></div></a>
-		<div class="col-sm-6"><a href="#"><img src="img/learnsm.jpg" width="300"> <h3>Learn</h3> <p>Photography tips & tricks</p></div></a>
-		<div class="col-sm-6"><a href="#"><img src="img/gallerysm.jpg" width="300"> <h3>Gallery</h3> <p>Clicks submitted by others.</p></div></a>
-	</div>
-</div>
-
-<div class="contianer-fluid hidden-xs hidden-sm">
-	<div class="row top-buffer">
-		<div class="col-md-3 col-xs-6">
-			<h2>Work</h2><p>If you are a professional photographer.</p>
-		</div>
-		<div class="col-md-3 col-xs-6">
-			<h2>Hire</h2><p>Looking for a professional photographer.</p>
-		</div>
-		<div class="col-md-3 col-xs-6">
-			<h2>Learn</h2><p>If you want to learn photography.</p>
-		</div>
-		<div class="col-md-3 col-xs-6">
-			<h2>Gallery</h2><p>Brows through clicks uploaded by both professionals & learners.</p>
 		</div>
 	</div>
 </div>
-
 
 <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>

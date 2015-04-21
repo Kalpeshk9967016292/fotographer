@@ -1,16 +1,17 @@
 ﻿.top-buffer{
-	margin-top: 10px;
+	margin-top: 20px;
 	margin-left: 0px;
 	text-align: center;
 }
 
 .links{
   font-size: 20px;
-  margin-top: 30px;
-  width: 100%;
-  background-color: cadetblue;
+  /*margin-top: 20px;*/
+  border-style: outset;
   transition : background-color 1s;
   border-radius: 1px;
+  text-align: center;
+
 }
 
 .links:hover{
@@ -18,9 +19,14 @@
 
 }
 
-
 .carousel-inner>.item>img, .carousel-inner>.item>a>img {
   line-height: 1;
+  width: 100%;
+} 
+
+.box{
+  height: 150;
+  border-style: outset;
   width: 100%;
 }
 
