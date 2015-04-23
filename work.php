@@ -5,6 +5,8 @@
 <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="https://davidstutz.github.io/bootstrap-multiselect/dist/js/bootstrap-multiselect.js"></script>
+<link rel="stylesheet" href="https://davidstutz.github.io/bootstrap-multiselect/dist/css/bootstrap-multiselect.css">
 <script src="js/js.js"></script>
 <link rel="stylesheet" type="text/css" href="CSS/index.css">
 <title>fotographer</title>
@@ -97,16 +99,24 @@
 	</div>
 
 	<div class="col-md-12 well">
-		<legend>About your profession</legend>
-			<div id="pd">
+		<legend>About your professionl life</legend>
+			<div id="pl">
 			<div class="col-md-4">
 			<div class="form-group">
 				<label for="exp">Experiance:</label>
-				<input type="number" class="form-control" id="exp" placeholder="Years" style="width:50%;">
+				<input type="number" class="form-control" id="exp" placeholder="Years">
 			</div>
 			</div>
 
-			
+			<div class="col-md-4">
+			<div class="form-group">
+				<label for="exp">Type of photography:</label>
+				<select id="top" class="form-control">
+					<option value="Wedding">Wedding</option>
+					<option value="Wedding">Product</option>
+				</select>
+			</div>
+			</div>			
 
 			
 			</div>
