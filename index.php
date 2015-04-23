@@ -11,6 +11,7 @@
 
 <body>
 
+
 <div class="container-fluid">
 <div class="row">
 	<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 top-buffer">
@@ -45,7 +46,10 @@
 	</div>
 </div>
 
-<div class="container-fluid">
+
+
+
+<div class="container-fluid" >
 	<div class="row">
 		<div class="col-lg-12 col-md-12 hidden-sm hidden-xs">
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
