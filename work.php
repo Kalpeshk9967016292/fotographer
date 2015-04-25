@@ -2,11 +2,8 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="https://davidstutz.github.io/bootstrap-multiselect/dist/js/bootstrap-multiselect.js"></script>
-<link rel="stylesheet" href="https://davidstutz.github.io/bootstrap-multiselect/dist/css/bootstrap-multiselect.css">
 <script src="js/js.js"></script>
 <link rel="stylesheet" type="text/css" href="CSS/index.css">
 <title>fotographer</title>
@@ -92,7 +89,7 @@
 
 			<div class="col-md-2 col-md-offset-6">
 			<div class="form-group">
-				<br><input type="submit" class="form-control btn-success" value="Done!" id="pdsub">
+				<br><input type="button" class="form-control btn-success" value="Next" id="pdsub">
 			</div>
 			</div>
 			</div>
@@ -110,11 +107,15 @@
 
 			<div class="col-md-4">
 			<div class="form-group">
-				<label for="exp">Type of photography:</label>
-				<select id="top" class="form-control">
-					<option value="Wedding">Wedding</option>
-					<option value="Wedding">Product</option>
-				</select>
+				<label for="loc">Your Location:</label>
+				<input type="text" class="form-control" id="loc" placeholder="Location">
+			</div>
+			</div>
+
+			<div class="col-md-2 col-md-offset-2">
+			<div class="form-group" style="  margin-top: 5px;">
+				<br><div class="btn btn-danger" id="plrev">Prev</div>
+				<div class="btn btn-success" id="plrev" style="float:right;">Next</div>
 			</div>
 			</div>			
 
