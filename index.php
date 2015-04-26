@@ -27,7 +27,7 @@
 	</div>
 
 	<div class="col-lg-1 col-md-6 col-sm-12 col-xs-12 top-buffer">
-		<a href="#" class="btn btn-info top-buffer" style="width:100%;border-radius:0px;">Work</a>
+		<a href="work.php" class="btn btn-info top-buffer" style="width:100%;border-radius:0px;">Work</a>
 	</div>
 
 	<div class="col-lg-1 col-md-6 col-sm-12 col-xs-12 top-buffer">

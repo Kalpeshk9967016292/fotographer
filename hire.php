@@ -49,7 +49,7 @@
 <div class="container">
 	<div class="row ">
 		<div class="col-lg-12 top-buffer" style="text-align:center;">
-			<div class="lead">Register to promote your work & get paid projects.</div>
+			<div class="lead">Lookign for a photographer, tell us your requirement.</div>
 		</div>
 	</div>
 
@@ -57,19 +57,12 @@
 	<form role="form" action="addph.php" method="post">
 	
 	<div class="col-md-12 well">
-		<legend>About you</legend>
-			<div id="pd">
+		<legend>Some thing about your self</legend>
+			<div id="cpd">
 			<div class="col-md-4">
 			<div class="form-group">
 				<label for="fullname">Your name :</label>
 				<input type="text" required="" class="form-control" id="name" placeholder="Full name">
-			</div>
-			</div>
-
-			<div class="col-md-4">
-			<div class="form-group">
-				<label for="dob">Your Birthday :</label>
-				<input type="date" class="form-control" id="dob">
 			</div>
 			</div>
 
@@ -87,7 +80,7 @@
 			</div>
 			</div>
 
-			<div class="col-md-2 col-md-offset-6">
+			<div class="col-md-2 col-md-offset-10">
 			<div class="form-group">
 				<br><input type="button" class="form-control btn-success" value="Next" id="pdsub">
 			</div>
@@ -96,19 +89,21 @@
 	</div>
 
 	<div class="col-md-12 well">
-		<legend>About your professionl life</legend>
-			<div id="pl">
+		<legend>Why do you need a photographer</legend>
+			<div id="cpl">
 			<div class="col-md-4">
 			<div class="form-group">
-				<label for="exp">Experiance:</label>
-				<input type="number" min="1" max="50" class="form-control" id="exp" placeholder="Years">
-			</div>
-			</div>
-
-			<div class="col-md-4">
-			<div class="form-group">
-				<label for="loc">Your Location:</label>
-				<input type="text" class="form-control" id="loc" placeholder="Location">
+				<label for="exp">Type of event</label>
+				<select class="form-control" placeholder="sds">
+					<option value="">-Select-</option>
+					<option value="Wedding">Fashion</option>
+					<option value="Wildlife">Wildlife</option>
+					<option value="Candid">Candid</option>
+					<option value="Event">Events</option>
+					<option value="portraits">Portraits</option>
+					<option value="Fashion">Fashion</option>
+					<option value="Journilisam">Journilisam</option>
+				</select>
 			</div>
 			</div>
 
@@ -125,47 +120,28 @@
 
 	<div class="col-md-12 well">
 		<legend>Type of photography</legend>
-
 			<div id="top">
 			
-			<div class="col-md-12 alert alert-info"><p>You have to uploaded images of selected category on the next page, You can also change this selection later in profile settings</p></div>
-
-			<div class="col-md-2">
-			<div class="form-group">
-				<div class="checkbox">
-  					<label><input type="checkbox" value="">Wedding</label>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-md-2">
-			<div class="form-group">
-				<div class="checkbox">
-  					<label><input type="checkbox" value="">Candid</label>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-md-2">
-			<div class="form-group">
-				<div class="checkbox">
-  					<label><input type="checkbox" value="">Events</label>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-md-2">
-			<div class="form-group">
-				<div class="checkbox">
-  					<label><input type="checkbox" value="">Portraits</label>
-				</div>
-			</div>
-			</div>
-
 			<div class="col-md-2">
 			<div class="form-group">
 				<div class="checkbox">
   					<label><input type="checkbox" value="">Fashion</label>
+				</div>
+			</div>
+			</div>
+
+			<div class="col-md-2">
+			<div class="form-group">
+				<div class="checkbox">
+  					<label><input type="checkbox" value="">Beauty</label>
+				</div>
+			</div>
+			</div>
+
+			<div class="col-md-2">
+			<div class="form-group">
+				<div class="checkbox">
+  					<label><input type="checkbox" value="">Nature</label>
 				</div>
 			</div>
 			</div>
@@ -181,15 +157,7 @@
 			<div class="col-md-2">
 			<div class="form-group">
 				<div class="checkbox">
-  					<label><input type="checkbox" value="">Journilism</label>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-md-2">
-			<div class="form-group">
-				<div class="checkbox">
-  					<label><input type="checkbox" value="">Random</label>
+  					<label><input type="checkbox" value="">Wedding</label>
 				</div>
 			</div>
 			</div>
@@ -226,19 +194,17 @@
 			</div>
 			</div>
 
-			<div class="col-md-4 col-md-offset-4">
-			<div class="form-group" style="  margin-top: 5px;">
-				<input type="submit" class="btn btn-info" value="Register me" style="width:100%;">				
-			</div>
-			</div>
-
-			<div class="col-md-2 col-md-offset-2">
+			<div class="col-md-2 col-md-offset-4">
 			<div class="form-group" style="  margin-top: 5px;">
 				<div class="btn btn-danger" id="toprev">Prev</div>
 			</div>
 			</div>			
 
-			
+			<div class="col-md-4 col-md-offset-4">
+			<div class="form-group" style="  margin-top: 5px;">
+				<br><input type="submit" class="btn btn-info" value="Register me" style="width:100%;">				
+			</div>
+			</div>
 
 			</div>
 	</div>
