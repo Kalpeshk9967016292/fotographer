@@ -89,9 +89,9 @@
 	</div>
 
 	<div class="col-md-12 well">
-		<legend>Why do you need a photographer</legend>
+		<legend>Some details about your event</legend>
 			<div id="cpl">
-			<div class="col-md-4">
+			<div class="col-md-3">
 			<div class="form-group">
 				<label for="exp">Type of event</label>
 				<select class="form-control" placeholder="sds">
@@ -107,7 +107,28 @@
 			</div>
 			</div>
 
-			<div class="col-md-2 col-md-offset-2">
+			<div class="col-md-3">
+			<div class="form-group">
+				<label for="edate">Date of event</label>
+				  <input type="date" class="form-control" id="edate">
+			</div>
+			</div>			
+
+			<div class="col-md-3">
+			<div class="form-group">
+				<label for="etime">Time of event</label>
+				  <input type="time" class="form-control" id="etime">
+			</div>
+			</div>	
+
+			<div class="col-md-3">
+			<div class="form-group">
+				<label for="eLoc">Location</label>
+				  <input type="text" placeholder="Where is the event?" class="form-control" id="etime">
+			</div>
+			</div>
+
+			<div class="col-md-2 col-md-offset-10">
 			<div class="form-group" style="  margin-top: 5px;">
 				<br><div class="btn btn-danger" id="plrev">Prev</div>
 				<div class="btn btn-success" id="plnex" style="float:right;">Next</div>
@@ -118,96 +139,7 @@
 			</div>
 	</div>
 
-	<div class="col-md-12 well">
-		<legend>Type of photography</legend>
-			<div id="top">
-			
-			<div class="col-md-2">
-			<div class="form-group">
-				<div class="checkbox">
-  					<label><input type="checkbox" value="">Fashion</label>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-md-2">
-			<div class="form-group">
-				<div class="checkbox">
-  					<label><input type="checkbox" value="">Beauty</label>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-md-2">
-			<div class="form-group">
-				<div class="checkbox">
-  					<label><input type="checkbox" value="">Nature</label>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-md-2">
-			<div class="form-group">
-				<div class="checkbox">
-  					<label><input type="checkbox" value="">Wildlife</label>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-md-2">
-			<div class="form-group">
-				<div class="checkbox">
-  					<label><input type="checkbox" value="">Wedding</label>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-md-2">
-			<div class="form-group">
-				<div class="checkbox">
-  					<label><input type="checkbox" value="">Travel</label>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-md-2">
-			<div class="form-group">
-				<div class="checkbox">
-  					<label><input type="checkbox" value="">Underwater</label>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-md-2">
-			<div class="form-group">
-				<div class="checkbox">
-  					<label><input type="checkbox" value="">Landscape</label>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-md-2">
-			<div class="form-group">
-				<div class="checkbox">
-  					<label><input type="checkbox" value="">Product</label>
-				</div>
-			</div>
-			</div>
-
-			<div class="col-md-2 col-md-offset-4">
-			<div class="form-group" style="  margin-top: 5px;">
-				<div class="btn btn-danger" id="toprev">Prev</div>
-			</div>
-			</div>			
-
-			<div class="col-md-4 col-md-offset-4">
-			<div class="form-group" style="  margin-top: 5px;">
-				<br><input type="submit" class="btn btn-info" value="Register me" style="width:100%;">				
-			</div>
-			</div>
-
-			</div>
-	</div>
+	
 
 	</form>
 	</div>

@@ -1,6 +1,7 @@
 $(document).ready(function()
 {	
 
+//Work Start
 //$("#pd").slideUp(500);
 $("#pl").hide();
 $("#top").hide();
@@ -25,7 +26,15 @@ $( "#toprev" ).click(function() {
   $("#top").slideUp(500);
 });
 
+//Work End
 
+//Hire Start
+$("#cpl").hide();
+
+$( "#pdsub" ).click(function() {
+  $("#cpd").slideUp(500);
+  $("#cpl").slideDown(500);
+});
 
 });
 
