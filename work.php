@@ -22,19 +22,19 @@
 		
 	</div>
 
-	<div class="col-lg-1 col-md-6 col-sm-12 col-xs-12 top-buffer">
+	<div class="col-lg-1 col-md-6 hidden-sm hidden-xs top-buffer">
 		<a href="#" class="btn btn-info top-buffer" style="width:100%;border-radius:0px;">Hire</a>
 	</div>
 
-	<div class="col-lg-1 col-md-6 col-sm-12 col-xs-12 top-buffer">
+	<div class="col-lg-1 col-md-6 hidden-sm hidden-xs top-buffer">
 		<a href="#" class="btn btn-info top-buffer" style="width:100%;border-radius:0px;">Work</a>
 	</div>
 
-	<div class="col-lg-1 col-md-6 col-sm-12 col-xs-12 top-buffer">
+	<div class="col-lg-1 col-md-6 hidden-sm hidden-xs top-buffer">
 		<a href="#" class="btn btn-info top-buffer" style="width:100%;border-radius:0px;">Learn</a>
 	</div>
 
-	<div class="col-lg-1 col-md-6 col-sm-12 col-xs-12 top-buffer">
+	<div class="col-lg-1 col-md-6 hidden-sm hidden-xs top-buffer">
 		<a href="#" class="btn btn-info top-buffer" style="width:100%;border-radius:0px;">Gallery</a>
 	</div>
 </div>
