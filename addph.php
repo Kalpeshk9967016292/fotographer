@@ -64,15 +64,15 @@
 				<p>Select photos from your device</p>
 				
 				<div class="btn btn-primary btn-file">
-					<i class="glyphicon glyphicon-folder-open"></i> &nbsp;Browse...
-					<input type="file" class="btn" multiple="multiple">
+					<i class="glyphicon glyphicon-folder-open"></i> &nbsp;&nbsp;Browse...
+					<input type="file" id="imgInp"  class="btn" multiple="multiple">
 				</div>
 				
 			</div>
 
 			<div class="col-md-9 well" style="text-align:center;">
-				<div class="lead">Uploaded Photos</div>
-				
+				<div class="lead">Uploaded Photos</div><hr>
+				<img src="" id="blah" class="img-responsive well" style="max-width:50%;max-height:25%;" />
 				
 				</div>
 				

@@ -181,7 +181,7 @@
 			<div class="col-md-2">
 			<div class="form-group">
 				<div class="checkbox">
-  					<label><input type="checkbox" value="">Journilism</label>
+  					<label><input type="checkbox" value="">Journalism</label>
 				</div>
 			</div>
 			</div>

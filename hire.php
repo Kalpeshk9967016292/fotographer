@@ -139,6 +139,13 @@
 			</div>
 	</div>
 
+	<div class="col-md-12 well">
+		<legend>Submit</legend>
+			<div class="col-md-4 col-md-offset-4">
+			<input type="submit" style="width:100%;" class="btn btn-info">		
+			</div>
+	</div>
+
 	
 
 	</form>
